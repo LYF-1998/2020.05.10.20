@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ChatRoomAndroid</string>
+    <string name="app_name">OrderDishesAndroid</string>
     <string name="Message_Recv">点菜信息</string>
     <string name="Message_Send">桌号</string>
     <string name="Send">点菜</string>
     <string name="string1">鱼香肉丝</string>
     <string name="string2">地三鲜</string>
-    <string name="string3">彩椒鱼头</string>
-    <string name="string4">手撕麻辣鸡</string>
+    <string name="string3">剁椒鱼头</string>
+    <string name="string4">白斩鸡</string>
+    <string name="string5">梅菜扣肉</string>
+    <string name="string6">酸菜鱼</string>
+    <string name="string7">干锅土豆</string>
+    <string name="string8">红烧猪蹄</string>
+
 
 </resources>

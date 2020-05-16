@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#FF7F50</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="reveal_color">#FFFFFF</color>
+    <color name="bottom_color">#3086E4</color>
+    <color name="bottom_bg">#40BAF8</color>
+    <color name="button_blue">#87CEEB</color>
+    <color name="seashell">#FFF5EE</color><!--海贝色 -->
+    <color name="papayawhip">#FFEFD5</color><!--番木色 -->
+    <color name="blanchedalmond">#FFEBCD</color><!--白杏色 -->
 </resources>
