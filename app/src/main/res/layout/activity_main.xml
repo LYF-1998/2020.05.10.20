@@ -443,6 +443,12 @@
                 android:layout_marginTop="30dp"
                 android:text="退出" />
 
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下一界面" />
+
         </LinearLayout>
 
     </LinearLayout>

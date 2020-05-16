@@ -11,6 +11,7 @@ import java.net.Socket;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.util.Log;
@@ -37,6 +38,7 @@ public class MainActivity  extends AppCompatActivity implements OnClickListener 
     private Button      mButton7 = null;
     private Button      mButton8 = null;
     private Button      mButton9 = null;
+    private Button      mNext = null;
     private Button btn_dialog_one;
     private Button btn_dialog_two;
     private Button btn_dialog_three;
@@ -110,6 +112,7 @@ public class MainActivity  extends AppCompatActivity implements OnClickListener 
         mButton8=(Button)findViewById(R.id.button08);
         mButton9=(Button)findViewById(R.id.button09);
         mdelete=(Button)findViewById(R.id.delete);
+        mNext=(Button)findViewById(R.id.next);
         // mIP=(TextView)findViewById(R.id.IP);
         //mconfirm=(Button)findViewById(R.id.confirm);
 
@@ -227,6 +230,14 @@ public class MainActivity  extends AppCompatActivity implements OnClickListener 
                 mNumber7.setText("");mNumber8.setText("");
             }
             });
+        mNext.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v12){
+                Intent intent = new;
+                new Intent(MainActivity.this, Main2Activity.class);
+                startActivity(intent);
+
+            }
+        });
 
     }
 
